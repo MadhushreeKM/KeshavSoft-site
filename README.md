@@ -1,6 +1,6 @@
 # KeshavSoft-site
 
-Welcome to the official website of **KeshavSoft** — built with 💙 Bootstrap 5.
+Welcome to the official website of **KeshavSoft** - built with 💙 Bootstrap 5.
 
 ## 🚀 About Us
 
