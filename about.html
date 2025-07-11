@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | KeshavSoft</title>
+  <meta name="description" content="Learn more about KeshavSoft – our mission, values, and the team behind innovative web solutions.">
+  <meta property="og:title" content="About | KeshavSoft" />
+  <meta property="og:description" content="Discover how KeshavSoft builds beautiful, responsive, and user-friendly websites." />
+  <meta property="og:image" content="assets/hero-bg.jpeg">
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Bootstrap CSS & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
+  <!-- AOS (for scroll animations) -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    .card {
+      transition: transform 0.3s cubic-bezier(.4,2,.6,1), box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-8px) scale(1.03);
+      box-shadow: 0 8px 32px rgba(33, 37, 41, 0.15);
+    }
+    .btn-animated {
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .btn-animated:hover {
+      box-shadow: 0 4px 16px rgba(13,110,253,0.2);
+      transform: translateY(-2px) scale(1.04);
+    }
+    .navbar {
+      box-shadow: 0 2px 8px rgba(33, 37, 41, 0.04);
+    }
+    footer {
+      box-shadow: 0 -2px 8px rgba(33, 37, 41, 0.04);
+    }
+    #backToTop {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      z-index: 999;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">KeshavSoft</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- About Section -->
+  <section class="py-5 bg-light" aria-label="About KeshavSoft">
+    <div class="container">
+      <h2 class="fw-bold mb-4 text-center text-primary" data-aos="fade-down">About Us</h2>
+      <div class="row justify-content-center">
+    <style>
+  .text-justify {
+    text-align: justify;
+  }
+</style>
+
+<div class="col-md-8 mx-auto">
+  <p class="lead fw-normal lh-lg text-muted px-3 text-center text-justify" style="font-size: 1.15rem;" data-aos="fade-up">
+    At <span class="fw-bold text-primary">KeshavSoft</span>, we are passionate about crafting visually stunning, fast, and responsive websites using the power of <span class="fw-bold">Bootstrap 5</span>. Our mission is to provide clean, modern, and accessible web experiences that not only look great on every device but also deliver real value to users. Whether you're a small business or a growing enterprise, we aim to create websites that are intuitive, easy to navigate, and optimized for performance, accessibility, and scalability.
+  </p>
+</div>
+
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 col-md-4" data-aos="zoom-in">
+          <div class="card h-100 shadow-sm text-center">
+            <div class="card-body">
+              <h5 class="card-title text-primary">Our Mission</h5>
+              <p class="card-text">To empower developers and businesses with high-quality web solutions.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4" data-aos="zoom-in" data-aos-delay="150">
+          <div class="card h-100 shadow-sm text-center">
+            <div class="card-body">
+              <h5 class="card-title text-primary">Our Team</h5>
+              <p class="card-text">A group of creative and dedicated professionals.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="card h-100 shadow-sm text-center">
+            <div class="card-body">
+              <h5 class="card-title text-primary">Our Values</h5>
+              <p class="card-text">Quality, innovation, and customer satisfaction.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Back to Top -->
+  <button id="backToTop" class="btn btn-primary rounded-circle" aria-label="Back to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white text-center py-3 mt-5">
+    <div class="container">
+      <small>&copy; 2024 KeshavSoft. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    // Back to top button
+    const backToTopBtn = document.getElementById("backToTop");
+    window.addEventListener("scroll", () => {
+      backToTopBtn.style.display = window.scrollY > 200 ? "block" : "none";
+    });
+    backToTopBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+</body>
+</html>
